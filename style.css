@@ -21,6 +21,9 @@ body {
 
 .main-video {
     width: 750px;
+    padding: 5px;
+    background-color: #999;
+    border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,11 +38,15 @@ body {
 
 .main-video video {
     width: 100%;
+    border-radius: 5px;
 }
 
 .main-video .close {
     position: absolute;
-    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px 10px 0 0;
+    background-color: #999;
     outline: none;
     border: none;
     font-size: 24px;
@@ -48,10 +55,12 @@ body {
     right: 10px;
     cursor: pointer;
 }
-.main-video h3{
+
+.main-video h3 {
     color: #2f2f2f;
     padding-left: 20px;
 }
+
 .videos {
     width: 750px;
     display: flex;
@@ -84,12 +93,14 @@ body {
     top: 0;
     left: 0;
     background-color: #00000088;
+    border-radius: 5px;
 }
 
 .videos .video video {
     width: 350px;
     height: 200px;
     background-size: cover;
+    border-radius: 5px;
 }
 
 .videos .video span {
